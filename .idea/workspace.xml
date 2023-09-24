@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2c03797-1fa1-48c2-a896-aeb94e6b1977" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/c3/EventLoopServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/c3/HelloClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/HelloClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/c2/HelloClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/HelloServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/c2/HelloServer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\work\maven\repo" />
+        <option name="mavenHome" value="E:/work/maven/apache-maven-3.2.5" />
+        <option name="userSettingsFile" value="E:\work\maven\apache-maven-3.2.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Vprwvwfp25p2rAnULQ6vNYpvhH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="netty.c3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitporject\netty-demo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HelloClient">
+    <configuration name="EventLoopServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.c3.EventLoopServer" />
+      <module name="netty-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.c3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.c3.HelloClient" />
+      <module name="netty-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.c3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEventLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="netty.c3.TestEventLoop" />
+      <module name="netty-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="netty.c2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloClient" />
+        <item itemvalue="Application.EventLoopServer" />
+        <item itemvalue="Application.TestEventLoop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2c03797-1fa1-48c2-a896-aeb94e6b1977" name="Default Changelist" comment="" />
+      <created>1695544104839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695544104839</updated>
+      <workItem from="1695544108739" duration="3702000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2653" y="-115" key="#HelloClient" timestamp="1695556851105">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state x="2653" y="-115" key="#HelloClient/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695556851105" />
+    <state x="2750" y="-83" key="#com.intellij.ide.util.MemberChooser" timestamp="1695555641999">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state x="2750" y="-83" key="#com.intellij.ide.util.MemberChooser/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695555641999" />
+    <state x="2958" y="69" key="#xdebugger.evaluate" timestamp="1695557195480">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state x="2958" y="69" key="#xdebugger.evaluate/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695557195480" />
+    <state width="2004" height="298" key="GridCell.Tab.0.bottom" timestamp="1695557223010">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state width="2004" height="298" key="GridCell.Tab.0.bottom/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695557223010" />
+    <state width="2004" height="298" key="GridCell.Tab.0.center" timestamp="1695557223010">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state width="2004" height="298" key="GridCell.Tab.0.center/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695557223010" />
+    <state width="2004" height="298" key="GridCell.Tab.0.left" timestamp="1695557223010">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state width="2004" height="298" key="GridCell.Tab.0.left/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695557223010" />
+    <state width="2004" height="298" key="GridCell.Tab.0.right" timestamp="1695557223010">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state width="2004" height="298" key="GridCell.Tab.0.right/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695557223010" />
+    <state width="2004" height="367" key="GridCell.Tab.1.bottom" timestamp="1695557086181">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state width="2004" height="367" key="GridCell.Tab.1.bottom/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695557086181" />
+    <state width="2004" height="367" key="GridCell.Tab.1.center" timestamp="1695557086181">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state width="2004" height="367" key="GridCell.Tab.1.center/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695557086181" />
+    <state width="2004" height="367" key="GridCell.Tab.1.left" timestamp="1695557086181">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state width="2004" height="367" key="GridCell.Tab.1.left/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695557086181" />
+    <state width="2004" height="367" key="GridCell.Tab.1.right" timestamp="1695557086181">
+      <screen x="1920" y="-348" width="2048" height="1120" />
+    </state>
+    <state width="2004" height="367" key="GridCell.Tab.1.right/1920.-348.2048.1120/0.0.1920.1040@1920.-348.2048.1120" timestamp="1695557086181" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/netty/c3/HelloClient.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+</project>
