@@ -2,10 +2,7 @@ package netty.c3;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;
-import io.netty.channel.ChannelHandlerContext;
-import io.netty.channel.ChannelInboundHandler;
-import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.channel.ChannelInitializer;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
@@ -18,8 +15,10 @@ import java.nio.charset.StandardCharsets;
 @Slf4j
 public class EventLoopServer {
     public static void main(String[] args) {
+        DefaultEventLoop defaultEventLoop = new DefaultEventLoop();
         new ServerBootstrap()
-                .group(new NioEventLoopGroup())
+                //boss only 1, work
+                .group(new NioEventLoopGroup(), new NioEventLoopGroup())
                 .channel(NioServerSocketChannel.class)
                 .childHandler(new ChannelInitializer<NioSocketChannel>() {
                     @Override
@@ -27,7 +26,14 @@ public class EventLoopServer {
                         ch.pipeline().addLast(new ChannelInboundHandlerAdapter() {
                             @Override
                             public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-                                ByteBuf buf = (ByteBuf)msg;
+                                ByteBuf buf = (ByteBuf) msg;
+                                log.info(buf.toString(StandardCharsets.UTF_8));
+                                ctx.fireChannelRead(msg);
+                            }
+                        }).addLast(defaultEventLoop, "name", new ChannelInboundHandlerAdapter() {
+                            @Override
+                            public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+                                ByteBuf buf = (ByteBuf) msg;
                                 log.info(buf.toString(StandardCharsets.UTF_8));
                             }
                         });
